@@ -174,6 +174,8 @@ export default function CodeExplorer({ onToggleTheme, theme }: CodeExplorerProps
   const PROJECT_SESSION_MAP: Record<string, string> = {
     "oxybank": "2cef3427-9e3d-4717-b56f-85f1751ab0d0",
     "p2p application": "1931c1f4-9da3-4887-9dfd-1eb16fbdf62b",
+    "insurance-portal": "8184ad2e-81cf-4834-8eef-b3a360e9726e",
+
   };
 
   // Maps raw API response fields → PipelineStep[]
