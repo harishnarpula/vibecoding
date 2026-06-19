@@ -17,6 +17,10 @@
     {
       "source": "/wc-proxy/wasm/:path*",
       "destination": "https://w-corp-staticblitz.com/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
